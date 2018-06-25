@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.com">
+<head>
+    <meta charset="UTF-8" />
+    <title>Movies Confirm</title>
+</head>
+<body>
+<p th:inline="text">The movie title was [[${movie.title}]].<br/>
+                    The year of release was [[${movie.yearRelease}]].<br/>
+                    The director was [[${movie.director}]].<br/></p>
+</body>
+</html>
